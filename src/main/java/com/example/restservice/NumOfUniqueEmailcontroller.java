@@ -24,6 +24,7 @@ public class NumOfUniqueEmailcontroller {
      */
 
 
+    //@CrossOrigin(origins = "http://ec2-54-212-58-103.us-west-2.compute.amazonaws.com:3000")
     @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/checkemail")
     public String numOfUniqueEmails(@RequestParam(value = "emails1", required = false) String emails, @RequestBody Email objEmail) {
