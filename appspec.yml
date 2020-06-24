@@ -7,5 +7,5 @@ files:
   #  destination: /tmp
 hooks:
    AfterInstall:
-     - location: /tmp/runSpring.sh
+     - location: scripts/runSpring.sh
        timeout: 180
