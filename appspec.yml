@@ -3,3 +3,7 @@ os: linux
 files:
   - source: ./UniqueEmailProject-0.0.1-SNAPSHOT.jar
     destination: /tmp
+hooks:
+  AfterInstall:
+    - location: tmp/runSpring.sh
+      timeout: 180
