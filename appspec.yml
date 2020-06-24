@@ -1,6 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ./UniqueEmailProject-0.0.1-SNAPSHOT.jar
+  #- source: ./UniqueEmailProject-0.0.1-SNAPSHOT.jar
+  #  destination: /tmp
+  - source: /scripts/runSpring.sh
     destination: /tmp
-
