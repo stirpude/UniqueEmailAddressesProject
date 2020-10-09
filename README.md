@@ -8,7 +8,7 @@ The input request is sent using postman in the body in following format:
     
     "emails": "test.email@gmail.com,test.email+spam@gmail.com,testemail@gmail.com"      
 }
-Testing pipeline
+Testing  pipeline
 Request POST URL : http://localhost:8080/checkemail
 
 
